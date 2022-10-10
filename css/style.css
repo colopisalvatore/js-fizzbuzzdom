@@ -1,11 +1,26 @@
-/* Common */
-:root {
-    --white: #ffffff;
-}
-
-
 /* COMMON */
 body {
-
-    background-color: rgb(58, 58, 58);
+    text-align: center;
+    color: #fffffe;
+    background-color: #0f0e17;
 }
+h1{
+    color: #0f0e17;
+}
+.head{
+    height: 50px;
+    background-color: #f25f4c;
+    box-shadow: 0 3px 10px #e53170;
+}
+
+.box {
+    border: 1px solid #fffffe;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    margin: 0.5rem;
+}
+
+.fizz{background-color: #ff8906}
+.buzz{background-color: #e53170}
+.fizzbuzz{background-color: #f25f4c}
